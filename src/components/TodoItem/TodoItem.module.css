@@ -1,0 +1,69 @@
+.todoItem {
+  width: 95%;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: lighten(#3a405a, 25%);
+  font-size: 0.75em;
+  letter-spacing: 0.015em;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.todoItem__text {
+  padding-left: 15px;
+  padding-right: 20px;
+  flex-grow: 1;
+  height: 100%;
+}
+.todoItem__text_select {
+  background-color: aqua;
+}
+.btnsWrapp {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.todoItem__btn_checked {
+  width: 25px;
+  height: 25px;
+  padding: 0.5em 1em;
+  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  background: url(https://img2.freepng.ru/20180605/sxp/kisspng-check-mark-computer-icons-font-checkmark-5b1654063ef074.1088632815281899582578.jpg)
+    no-repeat center center;
+  background-size: cover;
+}
+.todoItem__btn_delete {
+  width: 25px;
+  height: 25px;
+  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  background: url(https://img2.freepng.ru/20180503/uqw/kisspng-rubbish-bins-waste-paper-baskets-recycling-bin-c-garbage-bin-modeling-5aeac75bc667c2.4949745615253358998127.jpg)
+    no-repeat center center;
+  background-size: cover;
+}
+
+.todoItem__text_done {
+  background-color: coral;
+  text-decoration: line-through;
+}
+.todoItem__btn_edit {
+  width: 25px;
+  height: 25px;
+  padding: 0.5em 1em;
+  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  background: url(https://static.vecteezy.com/system/resources/previews/000/363/156/original/glyph-black-icon-vector.jpg)
+    no-repeat center center;
+  background-size: cover;
+}

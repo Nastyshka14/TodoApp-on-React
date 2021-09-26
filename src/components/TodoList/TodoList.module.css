@@ -1,0 +1,31 @@
+.container {
+  background: #fff;
+  width: 22em;
+  height: 30em;
+  box-shadow: 1px 0px 25px darken(#edf2f4, 10%);
+  border-radius: 3px;
+  border: 1ps solid black;
+}
+.header {
+  background: #3a405a;
+  padding: 1em;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.header__title {
+  color: #faf9f9;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+.todoItems {
+  height: 20em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-bottom: 2em solid #fff;
+  border-top: 1px solid #eee;
+}
+.form__container {
+  display: flex;
+  flex-direction: column;
+}
